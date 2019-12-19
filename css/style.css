@@ -29,6 +29,10 @@ p {
   font-size: 1.1rem;
 }
 
+strong {
+  font-weight: 600;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -74,6 +78,7 @@ ul {
   padding: 4px 8px;
   border-radius: 4px;
   transition: background-color .3s ease;
+  font-weight: 600;
 }
 
 .bio .bio__link:hover {
