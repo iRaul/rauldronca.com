@@ -74,7 +74,7 @@ ul {
 /* Bio */
 .bio .bio__link {
   color: #fff;
-  background-color: rgb(32, 33, 35, 0.8);
+  background-color: rgba(61, 63, 68, 0.8);
   padding: 4px 8px;
   border-radius: 4px;
   transition: background-color .3s ease;
