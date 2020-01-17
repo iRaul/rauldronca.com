@@ -1,54 +1,46 @@
 import { createGlobalStyle } from 'styled-components';
 
-// Fonts
-import RoobertLight from '../static/fonts/RoobertLight.woff';
-import RoobertRegular from '../static/fonts/RoobertRegular.woff';
-import RoobertMedium from '../static/fonts/RoobertMedium.woff';
-import RoobertSemiBold from '../static/fonts/RoobertSemiBold.woff';
-import RoobertBold from '../static/fonts/RoobertBold.woff';
-import RoobertHeavy from '../static/fonts/RoobertHeavy.woff';
-
 const Global = createGlobalStyle`
   @font-face {
     font-family: 'Roobert';
     font-style: normal;
     font-weight: 100;
-    src: url(${RoobertLight}) format('woff');
+    src: url('../static/fonts/RoobertLight.woff') format('woff');
   }
 
   @font-face {
     font-family: 'Roobert';
     font-style: normal;
     font-weight: 200;
-    src: url(${RoobertRegular}) format('woff');
+    src: url('../static/fonts/RoobertRegular.woff') format('woff');
   }
 
   @font-face {
     font-family: 'Roobert';
     font-style: normal;
     font-weight: 300;
-    src: url(${RoobertMedium}) format('woff');
+    src: url('../static/fonts/RoobertMedium.woff') format('woff');
   }
 
   @font-face {
     font-family: 'Roobert';
     font-style: normal;
     font-weight: 400;
-    src: url(${RoobertSemiBold}) format('woff');
+    src: url('../static/fonts/RoobertSemiBold.woff') format('woff');
   }
 
   @font-face {
     font-family: 'Roobert';
     font-style: normal;
     font-weight: 500;
-    src: url(${RoobertBold}) format('woff');
+    src: url('../static/fonts/RoobertBold.woff') format('woff');
   }
 
   @font-face {
     font-family: 'Roobert';
     font-style: normal;
     font-weight: 600;
-    src: url(${RoobertHeavy}) format('woff');
+    src: url('../static/fonts/RoobertHeavy.woff') format('woff');
   }
 
   html,
@@ -70,10 +62,15 @@ const Global = createGlobalStyle`
 
   body {
     font-family: 'Roobert';
-    color: #222;
-    background-color: #fff;
+    color: #fff;
+    background-color: #191A1F;
+    background-image: url('../static/images/noise.png');
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    cursor: pointer;
   }
 `;
 
