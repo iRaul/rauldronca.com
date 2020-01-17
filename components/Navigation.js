@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styled from 'styled-components';
 
 const Nav = styled.nav`
@@ -21,8 +22,12 @@ const NavItem = styled.a`
 
 const Navigation = () => (
   <Nav>
-    <NavItem>Home</NavItem>
-    <NavItem>About</NavItem>
+    <Link href="/">
+      <NavItem>Home</NavItem>
+    </Link>
+    <Link href="about">
+      <NavItem>About</NavItem>
+    </Link>
     <NavItem>Projects</NavItem>
     <NavItem>Contact</NavItem>
   </Nav>
