@@ -98,7 +98,7 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Markdown Previewer
+            CSS Filters Camera
           </a>
           A CSS filters realtime camera.
         </Portfolio>
