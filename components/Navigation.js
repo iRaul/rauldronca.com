@@ -28,8 +28,12 @@ const Navigation = () => (
     <Link href="about">
       <NavItem>About</NavItem>
     </Link>
-    <NavItem>Projects</NavItem>
-    <NavItem>Contact</NavItem>
+    <Link href="projects">
+      <NavItem>Projects</NavItem>
+    </Link>
+    <Link href="contact">
+      <NavItem>Contact</NavItem>
+    </Link>
   </Nav>
 );
 
