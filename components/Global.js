@@ -71,6 +71,7 @@ const Global = createGlobalStyle`
 
   a {
     cursor: pointer;
+    text-decoration: none;
   }
 `;
 
