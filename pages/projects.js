@@ -2,17 +2,9 @@ import styled from 'styled-components';
 
 import Title from '../components/Title';
 import Layout from '../components/Layout';
-
-const Portfolios = styled.ul`
-  margin: 30px 0 0;
-  padding: 0;
-  list-style-type: none;
-`;
+import List from '../components/List';
 
 const Portfolio = styled.li`
-  font-size: 1.5rem;
-  font-weight: 200;
-  margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.8);
 
   a {
@@ -31,7 +23,7 @@ export default () => (
     <Layout>
       <Title>Projects</Title>
 
-      <Portfolios>
+      <List>
         <Portfolio>
           <a
             href="https://www.creative-portfolios.com/"
@@ -122,7 +114,7 @@ export default () => (
           </a>
           Random HEX Color Code Generator.
         </Portfolio>
-      </Portfolios>
+      </List>
     </Layout>
   </>
 );
