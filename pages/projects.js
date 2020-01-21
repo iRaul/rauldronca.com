@@ -8,8 +8,6 @@ const Portfolio = styled.li`
   color: rgba(255, 255, 255, 0.8);
 
   a {
-    font-weight: 400;
-
     &:after {
       content: '—';
       margin: 0 10px;

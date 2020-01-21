@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import Title from '../components/Title';
 import Layout from '../components/Layout';
+import Link from '../components/Link';
 import { CTA } from '../components/Buttons';
 
 const Subtitle = styled.h2`
@@ -16,7 +17,9 @@ export default () => (
     <Layout>
       <Title>Raul Dronca</Title>
       <Subtitle>User Interface Designer/Engineer</Subtitle>
-      <CTA>More about me</CTA>
+      <Link href="/about">
+        <CTA>More about me</CTA>
+      </Link>
     </Layout>
   </>
 );
