@@ -23,24 +23,58 @@ export default () => (
 
       <List>
         <Item color="#1da1f2">
-          <a href="https://twitter.com/raul_dronca">Twitter</a>
+          <a
+            href="https://twitter.com/raul_dronca"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>
         </Item>
         <Item color="#ea4c89">
-          <a href="https://dribbble.com/rauldronk">Dribbble</a>
+          <a
+            href="https://dribbble.com/rauldronk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dribbble
+          </a>
         </Item>
         <Item color="#fafafa">
-          <a href="https://github.com/iRaul">Github</a>
+          <a
+            href="https://github.com/iRaul"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
         </Item>
         <Item color="#47cf73">
-          <a href="https://codepen.io/rauldronca">Codepen</a>
+          <a
+            href="https://codepen.io/rauldronca"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Codepen
+          </a>
         </Item>
         <Item color="#00a0dc">
-          <a href="https://www.linkedin.com/in/raul-dronca-7434a3184/">
+          <a
+            href="https://www.linkedin.com/in/raul-dronca-7434a3184/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Linkedin
           </a>
         </Item>
         <Item color="#fbbc05">
-          <a href="mailto:rauldronk@gmail.com">Email</a>
+          <a
+            href="mailto:rauldronk@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Email
+          </a>
         </Item>
       </List>
     </Layout>
