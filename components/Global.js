@@ -69,6 +69,10 @@ const Global = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
+  strong {
+    font-weight: 500;
+  }
+
   a {
     cursor: pointer;
     text-decoration: none;
