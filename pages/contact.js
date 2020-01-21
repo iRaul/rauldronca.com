@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import Title from '../components/Title';
+import Text from '../components/Text';
 import Layout from '../components/Layout';
 import List from '../components/List';
 
@@ -20,7 +21,16 @@ export default () => (
   <>
     <Layout>
       <Title>Contact</Title>
-
+      <Text>
+        Do you have awesome projects or just want to say hi?{' '}
+        <a
+          href="mailto:rauldronk@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get in touch.
+        </a>
+      </Text>
       <List>
         <Item color="#1da1f2">
           <a
@@ -65,15 +75,6 @@ export default () => (
             rel="noopener noreferrer"
           >
             Linkedin
-          </a>
-        </Item>
-        <Item color="#fbbc05">
-          <a
-            href="mailto:rauldronk@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Email
           </a>
         </Item>
       </List>
