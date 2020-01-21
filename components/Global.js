@@ -72,9 +72,10 @@ const Global = createGlobalStyle`
   a {
     cursor: pointer;
     text-decoration: none;
-    color: #fbbc05;
+    color: #00a8ff;
     opacity: 0.8;
     transition: opacity 0.3s ease;
+    font-weight: 300;
 
     &:hover {
       opacity: 1;

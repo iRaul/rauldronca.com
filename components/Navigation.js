@@ -18,6 +18,7 @@ const NavItem = styled.a`
 
   &.selected {
     color: rgba(255, 255, 255, 1);
+    opacity: 1;
   }
 
   &:hover {
