@@ -72,6 +72,13 @@ const Global = createGlobalStyle`
   a {
     cursor: pointer;
     text-decoration: none;
+    color: #fbbc05;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 `;
 

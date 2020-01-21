@@ -6,9 +6,6 @@ export const CTA = styled.a`
   font-size: 1.8rem;
   font-weight: 300;
   margin-top: 40px;
-  color: #fbbc05;
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
 
   &:after {
     content: '→';
@@ -18,7 +15,6 @@ export const CTA = styled.a`
   }
 
   &:hover {
-    opacity: 1;
     &:after {
       transform: translateX(20px);
     }

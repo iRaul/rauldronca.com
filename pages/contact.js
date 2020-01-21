@@ -9,6 +9,7 @@ const Item = styled.li`
     color: ${props => props.color};
     opacity: 0.8;
     transition: opacity 0.3s ease;
+    font-weight: 400;
 
     &:hover {
       opacity: 1;
