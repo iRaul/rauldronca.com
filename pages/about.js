@@ -1,23 +1,9 @@
 import styled from 'styled-components';
 
 import Title from '../components/Title';
+import Text from '../components/Text';
 import Layout from '../components/Layout';
-
-const Image = styled.div`
-  width: 100%;
-  height: 500px;
-  background-image: url(${props => props.src});
-  background-position: center;
-  background-size: cover;
-  border-radius: 8px;
-  margin-bottom: 40px;
-`;
-
-const Text = styled.p`
-  font-size: 1.4rem;
-  font-weight: 200;
-  line-height: 1.6;
-`;
+import Image from '../components/Image';
 
 const Wrapper = styled.div`
   padding: 0 50px;
@@ -49,8 +35,7 @@ export default () => (
         </Text>
 
         <Text>
-          Before working for Fyusion, I worked as a freelancer for different
-          clients such as:{' '}
+          Previously, I worked as a freelancer for different clients such as:{' '}
           <a
             href="https://designmodo.com/"
             target="_blank"
