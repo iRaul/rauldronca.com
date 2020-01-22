@@ -8,6 +8,10 @@ const Image = styled.div`
   background-size: cover;
   border-radius: 8px;
   margin-bottom: 40px;
+
+  @media (max-width: 576px) {
+    height: 300px;
+  }
 `;
 
 export default Image;

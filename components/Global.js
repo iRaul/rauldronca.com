@@ -54,6 +54,10 @@ const Global = createGlobalStyle`
     box-sizing: border-box;
     font-size: 16px;
     scroll-behavior: smooth;
+
+    @media (max-width: 576px) {
+      font-size: 12px;
+    }
   }
 
   *, *:before, *:after {

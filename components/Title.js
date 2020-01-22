@@ -6,6 +6,7 @@ const Title = styled.h1`
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 6px;
+  line-height: 1;
 `;
 
 export default Title;

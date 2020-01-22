@@ -7,6 +7,10 @@ import Image from '../components/Image';
 
 const Wrapper = styled.div`
   padding: 0 50px;
+
+  @media (max-width: 576px) {
+    padding: 0;
+  }
 `;
 
 export default () => (

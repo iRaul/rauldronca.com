@@ -3,10 +3,14 @@ import styled from 'styled-components';
 import Link from './Link';
 
 const Nav = styled.nav`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: space-between;
   padding: 30px 0;
   margin-bottom: 60px;
+
+  @media (max-width: 576px) {
+    margin-bottom: 20px;
+  }
 `;
 
 const NavItem = styled.a`
