@@ -3,19 +3,7 @@ import styled from 'styled-components';
 import Title from '../components/Title';
 import Text from '../components/Text';
 import Layout from '../components/Layout';
-import List from '../components/List';
-
-const Item = styled.li`
-  a {
-    color: ${props => props.color};
-    opacity: 0.8;
-    transition: opacity 0.3s ease;
-
-    &:hover {
-      opacity: 1;
-    }
-  }
-`;
+import { List, ListItem, ListLink } from '../components/List';
 
 export default () => (
   <>
@@ -31,52 +19,63 @@ export default () => (
           Get in touch.
         </a>
       </Text>
+
       <List>
-        <Item color="#1da1f2">
-          <a
+        <ListItem>
+          <ListLink
             href="https://twitter.com/raul_dronca"
             target="_blank"
             rel="noopener noreferrer"
+            color="#1da1f2"
           >
             Twitter
-          </a>
-        </Item>
-        <Item color="#ea4c89">
-          <a
+          </ListLink>
+          Say hi! Follow me 🙂
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="https://dribbble.com/rauldronk"
             target="_blank"
             rel="noopener noreferrer"
+            color="#ea4c89"
           >
             Dribbble
-          </a>
-        </Item>
-        <Item color="#fafafa">
-          <a
+          </ListLink>
+          UI Design Experiments
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="https://github.com/iRaul"
             target="_blank"
             rel="noopener noreferrer"
+            color="#fafafa"
           >
             Github
-          </a>
-        </Item>
-        <Item color="#47cf73">
-          <a
+          </ListLink>
+          Open Source Projects
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="https://codepen.io/rauldronca"
             target="_blank"
             rel="noopener noreferrer"
+            color="#47cf73"
           >
             Codepen
-          </a>
-        </Item>
-        <Item color="#00a0dc">
-          <a
+          </ListLink>
+          UI and CSS Experiments
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="https://www.linkedin.com/in/raul-dronca-7434a3184/"
             target="_blank"
             rel="noopener noreferrer"
+            color="#00a0dc"
           >
             Linkedin
-          </a>
-        </Item>
+          </ListLink>
+          My Resume
+        </ListItem>
       </List>
     </Layout>
   </>

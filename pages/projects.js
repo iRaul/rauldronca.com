@@ -1,19 +1,7 @@
-import styled from 'styled-components';
-
 import Title from '../components/Title';
 import Layout from '../components/Layout';
-import List from '../components/List';
+import {List, ListItem, ListLink} from '../components/List';
 
-const Portfolio = styled.li`
-  color: rgba(255, 255, 255, 0.8);
-
-  a {
-    &:after {
-      content: '—';
-      margin: 0 10px;
-    }
-  }
-`;
 
 export default () => (
   <>
@@ -21,96 +9,96 @@ export default () => (
       <Title>Projects</Title>
 
       <List>
-        <Portfolio>
-          <a
+        <ListItem>
+          <ListLink
             href="https://www.creative-portfolios.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Creative Portfolios
-          </a>
+          </ListLink>
           A curated list of Creative Portfolios.
-        </Portfolio>
-        <Portfolio>
-          <a
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="https://podcasts-repo.surge.sh/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Podcasts Repo
-          </a>
+          </ListLink>
           A collection of podcasts around the web.
-        </Portfolio>
-        <Portfolio>
-          <a
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="https://minimal-images.now.sh/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Minimal Images
-          </a>
+          </ListLink>
           Minimal Images from Unsplash.
-        </Portfolio>
-        <Portfolio>
-          <a
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="https://iraul.github.io/pushy-buttons/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Pushy Buttons
-          </a>
+          </ListLink>
           A small CSS Pressable Buttons library.
-        </Portfolio>
-        <Portfolio>
-          <a
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="http://minimal-todo.surge.sh/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Minimal To Do
-          </a>
+          </ListLink>
           A minimal to do list.
-        </Portfolio>
-        <Portfolio>
-          <a
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="https://mdprv.surge.sh/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Markdown Previewer
-          </a>
+          </ListLink>
           Simple Markdown Previewer.
-        </Portfolio>
-        <Portfolio>
-          <a
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="https://css-filters-camera.surge.sh/"
             target="_blank"
             rel="noopener noreferrer"
           >
             CSS Filters Camera
-          </a>
+          </ListLink>
           A CSS filters realtime camera.
-        </Portfolio>
-        <Portfolio>
-          <a
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="http://box-shadow-generator.surge.sh/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Box Shadow Generator
-          </a>
+          </ListLink>
           CSS box-shadow generator.
-        </Portfolio>
-        <Portfolio>
-          <a
+        </ListItem>
+        <ListItem>
+          <ListLink
             href="http://hex-color-generator.surge.sh/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Hex Color Generator
-          </a>
+          </ListLink>
           Random HEX Color Code Generator.
-        </Portfolio>
+        </ListItem>
       </List>
     </Layout>
   </>
