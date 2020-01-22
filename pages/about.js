@@ -29,13 +29,14 @@ export default () => (
             rel="noopener noreferrer"
           >
             Fyusion
-          </a>
-          , at the intersection between design and engineering. Constantly
+          </a>{' '}
+          at the intersection between design and engineering. Constantly
           switching between UI design, front-end development and prototyping.
         </Text>
 
         <Text>
-          Previously, I worked as a freelancer for different clients such as:{' '}
+          Previously, I worked as a freelancer, building UI's for different
+          clients such as:{' '}
           <a
             href="https://designmodo.com/"
             target="_blank"
