@@ -20,7 +20,7 @@ export default () => (
         >
           Fyusion
         </a>{' '}
-        at the intersaction between desing and engineering.
+        at the intersection between design and engineering.
       </Subtitle>
       <Link href="/about">
         <CTA>More about me</CTA>
