@@ -16,7 +16,7 @@ export default () => (
   <>
     <Layout>
       <Title>Raul Dronca</Title>
-      <Subtitle>User Interface Designer/Engineer</Subtitle>
+      <Subtitle>User Interface Designer/Engineer.</Subtitle>
       <Link href="/about">
         <CTA>More about me</CTA>
       </Link>
