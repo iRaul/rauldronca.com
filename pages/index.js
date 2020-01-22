@@ -12,15 +12,8 @@ export default () => (
         Raul Dronca <Memoji />
       </Title>
       <Subtitle>
-        User Interface Designer/Engineer, working at{' '}
-        <a
-          href="https://fyusion.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Fyusion
-        </a>{' '}
-        at the intersection between design and engineering.
+        User Interface Designer/Engineer, working at the intersection between
+        design and engineering.
       </Subtitle>
       <Link href="/about">
         <CTA>More about me</CTA>
