@@ -1,5 +1,3 @@
-import styled from 'styled-components';
-
 import Title from '../components/Title';
 import Text from '../components/Text';
 import Layout from '../components/Layout';

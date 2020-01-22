@@ -1,7 +1,6 @@
 import Title from '../components/Title';
 import Layout from '../components/Layout';
-import {List, ListItem, ListLink} from '../components/List';
-
+import { List, ListItem, ListLink } from '../components/List';
 
 export default () => (
   <>
