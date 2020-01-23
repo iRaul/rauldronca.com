@@ -65,7 +65,7 @@ const Global = createGlobalStyle`
   }
 
   body {
-    font-family: 'Roobert';
+    font-family: 'Roobert', sans-serif;
     color: #fff;
     background-color: #191A1F;
     background-image: url('../static/images/noise.png');
