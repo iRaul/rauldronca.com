@@ -126,7 +126,6 @@ const Global = createGlobalStyle`
     font-family: 'Founders Grotesk', sans-serif;
     color: #fff;
     background-color: #0E1012;
-    background-image: url('../static/images/noise.png');
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const Img = styled.img`
   position: absolute;
-  width: 140px;
-  top: -20px;
+  width: 120px;
+  top: 0;
 
   @media (max-width: 576px) {
     display: none;

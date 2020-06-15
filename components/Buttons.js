@@ -2,17 +2,10 @@ import styled from 'styled-components';
 
 // CTA Button
 export const CTA = styled.a`
-  display: block;
-  font-size: 1.8rem;
+  display: inline-block;
+  font-size: 1.5rem;
   font-weight: 300;
-  margin-top: 40px;
-
-  &:after {
-    content: '→';
-    margin-left: 10px;
-    display: inline-block;
-    transition: transform 0.3s ease;
-  }
+  margin-top: 10px;
 
   &:hover {
     &:after {

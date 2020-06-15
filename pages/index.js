@@ -8,9 +8,7 @@ import { CTA } from '../components/Buttons';
 export default () => (
   <>
     <Layout>
-      <Title>
-        Raul Dronca <Memoji />
-      </Title>
+      <Title>Raul Dronca</Title>
       <Subtitle>
         User Interface Designer/Engineer, working at the intersection between
         design and engineering.
