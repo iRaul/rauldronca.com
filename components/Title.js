@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const Title = styled.h1`
-  color: rgba(255, 255, 255, 1);
-  font-size: 3.2rem;
+  color: #222;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 0;

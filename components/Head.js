@@ -17,5 +17,9 @@ export default () => (
       href="../static/favicons/favicon-16x16.png"
       sizes="16x16"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
   </Head>
 );

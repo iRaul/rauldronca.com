@@ -16,7 +16,7 @@ export default () => (
           >
             Creative Portfolios
           </ListLink>
-          A curated list of Creative Portfolios.
+          — A curated list of Creative Portfolios.
         </ListItem>
         <ListItem>
           <ListLink
@@ -26,7 +26,7 @@ export default () => (
           >
             Podcasts Repo
           </ListLink>
-          A collection of podcasts around the web.
+          — A collection of podcasts around the web.
         </ListItem>
         <ListItem>
           <ListLink
@@ -36,7 +36,7 @@ export default () => (
           >
             Minimal Images
           </ListLink>
-          Minimal Images from Unsplash.
+          — Minimal Images from Unsplash.
         </ListItem>
         <ListItem>
           <ListLink
@@ -46,7 +46,7 @@ export default () => (
           >
             Pushy Buttons
           </ListLink>
-          A small CSS Pressable Buttons library.
+          — A small CSS Pressable Buttons library.
         </ListItem>
         <ListItem>
           <ListLink
@@ -56,7 +56,7 @@ export default () => (
           >
             Minimal To Do
           </ListLink>
-          A minimal to do list.
+          — A minimal to do list.
         </ListItem>
         <ListItem>
           <ListLink
@@ -66,7 +66,7 @@ export default () => (
           >
             Markdown Previewer
           </ListLink>
-          Simple Markdown Previewer.
+          — Simple Markdown Previewer.
         </ListItem>
         <ListItem>
           <ListLink
@@ -76,7 +76,7 @@ export default () => (
           >
             CSS Filters Camera
           </ListLink>
-          A CSS filters realtime camera.
+          — A CSS filters realtime camera.
         </ListItem>
         <ListItem>
           <ListLink
@@ -86,7 +86,7 @@ export default () => (
           >
             Box Shadow Generator
           </ListLink>
-          CSS box-shadow generator.
+          — CSS box-shadow generator.
         </ListItem>
         <ListItem>
           <ListLink
@@ -96,7 +96,7 @@ export default () => (
           >
             Hex Color Generator
           </ListLink>
-          Random HEX Color Code Generator.
+          — Random HEX Color Code Generator.
         </ListItem>
       </List>
     </Layout>

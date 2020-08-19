@@ -28,7 +28,7 @@ export default () => (
           >
             Twitter
           </ListLink>
-          Say hi! Follow me 🙂
+          — Say hi! Follow me 🙂
         </ListItem>
         <ListItem>
           <ListLink
@@ -39,7 +39,7 @@ export default () => (
           >
             Dribbble
           </ListLink>
-          UI Design Experiments
+          — UI Design Experiments
         </ListItem>
         <ListItem>
           <ListLink
@@ -50,7 +50,7 @@ export default () => (
           >
             Github
           </ListLink>
-          Open Source Projects
+          — Open Source Projects
         </ListItem>
         <ListItem>
           <ListLink
@@ -61,7 +61,7 @@ export default () => (
           >
             Codepen
           </ListLink>
-          UI and CSS Experiments
+          — UI and CSS Experiments
         </ListItem>
         <ListItem>
           <ListLink
@@ -72,7 +72,7 @@ export default () => (
           >
             Linkedin
           </ListLink>
-          My Resume
+          — My Resume
         </ListItem>
       </List>
     </Layout>

@@ -14,19 +14,19 @@ const Nav = styled.nav`
 `;
 
 const NavItem = styled.a`
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-weight: 200;
-  color: ${props =>
-    props.active ? 'rgba(255, 255, 255, 1)' : 'rgba(255, 255, 255, 0.6)'};
+  color: ${props => (props.active ? 'rgba(0, 0, 0, 1)' : 'rgba(0, 0, 0, 0.6)')};
   transition: color 0.3s ease;
 
   &.selected {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
     opacity: 1;
   }
 
   &:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
   }
 `;
 

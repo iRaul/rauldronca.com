@@ -1,19 +1,13 @@
 import styled from 'styled-components';
 
 export const ListItem = styled.li`
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 200;
   margin-bottom: 20px;
-  color: rgba(255, 255, 255, 0.8);
 `;
 
 export const ListLink = styled.a`
-  color: ${props => props.color};
-
-  &:after {
-    content: '—';
-    margin: 0 10px;
-  }
+  margin-right: 8px;
 `;
 
 export const List = styled.ul`
