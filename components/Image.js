@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Image = styled.div`
-  width: 360px;
+  width: 300px;
   height: 250px;
   background-image: url(${props => props.src});
   background-position: top;
