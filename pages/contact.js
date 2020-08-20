@@ -6,7 +6,6 @@ import { List, ListItem, ListLink } from '../components/List';
 export default () => (
   <>
     <Layout>
-      <Title>Contact</Title>
       <Text>
         Do you have awesome projects or just want to say hi?{' '}
         <a

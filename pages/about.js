@@ -7,8 +7,6 @@ import Images from '../components/Images';
 export default () => (
   <>
     <Layout>
-      <Title>About</Title>
-
       <Text>Hello there 👋</Text>
 
       <Text>

@@ -5,8 +5,6 @@ import { List, ListItem, ListLink } from '../components/List';
 export default () => (
   <>
     <Layout>
-      <Title>Projects</Title>
-
       <List>
         <ListItem>
           <ListLink

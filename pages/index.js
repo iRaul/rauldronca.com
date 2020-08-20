@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 export default () => (
   <>
     <Layout>
-      <Title>Raul Dronca</Title>
+      <Title>Hi! I'm Raul 🌱</Title>
       <Subtitle>
         User Interface Designer/Engineer, working at the intersection between
         design and engineering.
