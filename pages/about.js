@@ -67,7 +67,7 @@ export default () => (
         <Image top="10px" left="-30px" src="../static/images/me.jpg" />
         <Image top="30px" left="220px" src="../static/images/family.jpg" />
         <Image top="200px" left="-50px" src="../static/images/natalia.jpg" />
-        <Image top="260px" left="240px" src="../static/images/naia-mami.jpg" />
+        <Image top="210px" left="200px" src="../static/images/naia-mami.jpg" />
       </Images>
     </Layout>
   </>

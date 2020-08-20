@@ -8,10 +8,6 @@ const Title = styled.h1`
   margin-bottom: 0;
   line-height: 1;
   position: relative;
-
-  @media (max-width: 576px) {
-    font-size: 4.8rem;
-  }
 `;
 
 export default Title;

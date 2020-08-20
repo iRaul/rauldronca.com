@@ -1,11 +1,8 @@
 import styled from 'styled-components';
 
-const Image = styled.div`
+const Image = styled.img`
   width: 300px;
-  height: 250px;
-  background-image: url(${props => props.src});
-  background-position: top;
-  background-size: cover;
+  object-fit: cover;
   border-radius: 4px;
   position: absolute;
   top: ${props => props.top};
@@ -13,7 +10,9 @@ const Image = styled.div`
   margin-bottom: 40px;
 
   @media (max-width: 576px) {
-    height: 300px;
+    position: static;
+    width: 100%;
+    margin-bottom: 10px;
   }
 `;
 
