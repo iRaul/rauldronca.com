@@ -1,4 +1,3 @@
-import Title from '../components/Title';
 import Text from '../components/Text';
 import Layout from '../components/Layout';
 import { List, ListItem, ListLink } from '../components/List';
@@ -13,7 +12,7 @@ export default () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Get in touch.
+          Email
         </a>
       </Text>
 

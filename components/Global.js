@@ -25,7 +25,7 @@ const Global = createGlobalStyle`
   body {
     background-color: #fff;
     color: #000;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

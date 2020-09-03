@@ -7,7 +7,7 @@ import Images from '../components/Images';
 export default () => (
   <>
     <Layout>
-      <Text>Hello there 👋</Text>
+      <Title>Hello there 👋</Title>
 
       <Text>
         I'm a User Interface Designer/Engineer living in Arad, Romania.
@@ -63,9 +63,8 @@ export default () => (
 
       <Images>
         <Image top="10px" left="-30px" src="../static/images/me.jpg" />
-        <Image top="30px" left="220px" src="../static/images/family.jpg" />
-        <Image top="200px" left="-50px" src="../static/images/natalia.jpg" />
-        <Image top="210px" left="200px" src="../static/images/naia-mami.jpg" />
+        <Image top="18px" left="400px" src="../static/images/natalia.jpg" />
+        <Image top="40px" left="165px" src="../static/images/family.jpg" />
       </Images>
     </Layout>
   </>

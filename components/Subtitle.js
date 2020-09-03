@@ -7,7 +7,7 @@ const Subtitle = styled.h2`
   margin-top: 15px;
   margin-bottom: 0;
   color: #444;
-  max-width: 550px;
+  max-width: 100%;
 `;
 
 export default Subtitle;
