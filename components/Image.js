@@ -1,19 +1,20 @@
 import styled from 'styled-components';
 
-const Image = styled.img`
-  width: 300px;
+export const Image = styled.img`
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+`;
+
+export const FamilyImage = styled.img`
+  max-width: 800px;
   object-fit: cover;
   border-radius: 4px;
   position: absolute;
-  top: ${props => props.top};
-  left: ${props => props.left};
-  margin-bottom: 40px;
+  right: -15%;
 
   @media (max-width: 576px) {
     position: static;
     width: 100%;
-    margin-bottom: 10px;
   }
 `;
-
-export default Image;

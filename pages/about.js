@@ -1,14 +1,11 @@
-import Title from '../components/Title';
 import Text from '../components/Text';
 import Layout from '../components/Layout';
-import Image from '../components/Image';
+import { FamilyImage } from '../components/Image';
 import Images from '../components/Images';
 
 export default () => (
   <>
     <Layout>
-      <Title>Hello there 👋</Title>
-
       <Text>
         I'm a User Interface Designer/Engineer living in Arad, Romania.
       </Text>
@@ -16,6 +13,7 @@ export default () => (
       <Text>
         I'm currently working remotely at{' '}
         <a
+          className="link-a"
           href="https://fyusion.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -30,6 +28,7 @@ export default () => (
         Previously, I worked as a freelancer, building UI's for different
         clients such as:{' '}
         <a
+          className="link-a"
           href="https://designmodo.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -38,6 +37,7 @@ export default () => (
         </a>
         ,{' '}
         <a
+          className="link-a"
           href="http://www.climber.io/"
           target="_blank"
           rel="noopener noreferrer"
@@ -46,6 +46,7 @@ export default () => (
         </a>{' '}
         and{' '}
         <a
+          className="link-a"
           href="http://hexbridge.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -62,9 +63,7 @@ export default () => (
       </Text>
 
       <Images>
-        <Image top="10px" left="-30px" src="../static/images/me.jpg" />
-        <Image top="18px" left="400px" src="../static/images/natalia.jpg" />
-        <Image top="40px" left="165px" src="../static/images/family.jpg" />
+        <FamilyImage src="../static/images/family.png" />
       </Images>
     </Layout>
   </>

@@ -36,10 +36,17 @@ const Global = createGlobalStyle`
 
   a {
     cursor: pointer;
-    color: #084ae0;
-    opacity: 0.8;
+    opacity: 0.7;
     transition: opacity 0.3s ease;
-    font-weight: 600;
+    font-weight: 500;
+    text-decoration: none;
+
+    &.link-a {
+      background-color: #084ae0;
+      color: #fff;
+      padding: 2px 4px;
+      border-radius: 1px;
+    }
 
     &:hover {
       opacity: 1;

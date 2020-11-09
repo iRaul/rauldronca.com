@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Subtitle = styled.h2`
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
   margin-top: 15px;
   margin-bottom: 0;

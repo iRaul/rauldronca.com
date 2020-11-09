@@ -4,9 +4,9 @@ import Link from './Link';
 
 const Nav = styled.nav`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 30px 0;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 
   @media (max-width: 576px) {
     margin-bottom: 20px;
@@ -15,9 +15,10 @@ const Nav = styled.nav`
 
 const NavItem = styled.a`
   font-size: 1.2rem;
-  font-weight: 200;
+  font-weight: 400;
   color: ${props => (props.active ? 'rgba(0, 0, 0, 1)' : 'rgba(0, 0, 0, 0.6)')};
   transition: color 0.3s ease;
+  margin-bottom: 10px;
 
   &.selected {
     color: rgba(0, 0, 0, 1);

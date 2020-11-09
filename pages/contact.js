@@ -8,6 +8,7 @@ export default () => (
       <Text>
         Do you have awesome projects or just want to say hi?{' '}
         <a
+          className="link-a"
           href="mailto:rauldronk@gmail.com"
           target="_blank"
           rel="noopener noreferrer"

@@ -1,4 +1,3 @@
-import Title from '../components/Title';
 import Layout from '../components/Layout';
 import { List, ListItem, ListLink } from '../components/List';
 
