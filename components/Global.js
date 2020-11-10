@@ -45,7 +45,7 @@ const Global = createGlobalStyle`
       background-color: #084ae0;
       color: #fff;
       padding: 2px 4px;
-      border-radius: 1px;
+      border-radius: 2px;
     }
 
     &:hover {

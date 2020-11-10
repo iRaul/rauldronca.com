@@ -11,11 +11,15 @@ export const ListLink = styled.a`
   background-color: #084ae0;
   color: #fff;
   padding: 2px 4px;
-  border-radius: 1px;
+  border-radius: 2px;
 `;
 
 export const List = styled.ul`
   margin: 30px 0 0;
   padding: 0;
   list-style-type: none;
+`;
+
+export const PorfolioItem = styled(ListItem)`
+  margin-bottom: 80px;
 `;
