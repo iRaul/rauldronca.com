@@ -1,14 +1,14 @@
 import Subtitle from '../components/Subtitle';
 import Layout from '../components/Layout';
-import { Image } from '../components/Image';
+import Title from '../components/Title';
 
 export default () => (
   <>
     <Layout>
-      <Image src="../static/images/profile-pic.png" alt="Raul Dronca" />
+      <Title>Hi! I'm Raul</Title>
       <Subtitle>
-        I'm a <strong>User Interface Designer/Engineer</strong>, working at the
-        intersection between design and engineering 🤙🏼
+        I'm a <span>User Interface Designer/Engineer</span>, working at the
+        intersection between design and engineering.
       </Subtitle>
     </Layout>
   </>

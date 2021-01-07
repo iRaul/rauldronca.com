@@ -1,17 +1,14 @@
 import styled from 'styled-components';
 
 export const ListItem = styled.li`
-  font-size: 1rem;
-  font-weight: 200;
+  font-size: 1.2rem;
+  font-weight: 400;
   margin-bottom: 20px;
 `;
 
 export const ListLink = styled.a`
   margin-right: 8px;
-  background-color: #084ae0;
-  color: #fff;
-  padding: 2px 4px;
-  border-radius: 2px;
+  color: #0099ff;
 `;
 
 export const List = styled.ul`
@@ -21,5 +18,5 @@ export const List = styled.ul`
 `;
 
 export const PorfolioItem = styled(ListItem)`
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 `;

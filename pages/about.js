@@ -58,13 +58,10 @@ export default () => (
 
       <Text>
         While design and programming are part of my life and a huge passion of
-        mine, <strong>my faith</strong> and <strong>my family</strong> are the
-        true foundations of my life.
+        mine, <span className="yellow-txt">my faith</span> and{' '}
+        <span className="yellow-txt">my family</span> are the true foundations
+        of my life.
       </Text>
-
-      <Images>
-        <FamilyImage src="../static/images/family.png" />
-      </Images>
     </Layout>
   </>
 );
