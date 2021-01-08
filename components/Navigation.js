@@ -5,8 +5,19 @@ import Link from './Link';
 const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
-  margin-bottom: 60px;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 18px 28px;
+  gap: 20px;
+  backdrop-filter: saturate(100%) blur(10px);
+  position: fixed;
+  left: 0%;
+  top: 2%;
+  right: 0%;
+  bottom: auto;
+  background-color: rgb(18 18 18 / 80%);
+  z-index: 4;
+  border-radius: 4px;
 
   @media (max-width: 576px) {
     margin-bottom: 20px;
@@ -14,12 +25,14 @@ const Nav = styled.nav`
 `;
 
 const NavItem = styled.a`
-  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
   font-weight: 400;
   color: ${props =>
     props.active ? 'rgba(255, 255, 255, 1)' : 'rgba(255, 255, 255, 0.6)'};
   transition: color 0.3s ease;
-  margin-bottom: 10px;
 
   &.selected {
     color: rgba(255, 255, 255, 1);
@@ -45,6 +58,12 @@ const Navigation = () => (
     </Link>
     <Link href="/contact">
       <NavItem>Contact</NavItem>
+    </Link>
+    <Link href="/reading">
+      <NavItem>Reading</NavItem>
+    </Link>
+    <Link href="/bookmarks">
+      <NavItem>Bookmarks</NavItem>
     </Link>
   </Nav>
 );
