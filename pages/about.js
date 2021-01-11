@@ -1,11 +1,12 @@
 import Text from '../components/Text';
 import Layout from '../components/Layout';
-import { FamilyImage } from '../components/Image';
-import Images from '../components/Images';
+import { ProfileImage } from '../components/Image';
 
 export default () => (
   <>
     <Layout>
+      <ProfileImage src="../static/images/me.png" alt="Raul Dronca" />
+
       <Text>
         I'm a User Interface Designer/Engineer living in Arad, Romania.
       </Text>
