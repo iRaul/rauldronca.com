@@ -40,11 +40,6 @@ const Global = createGlobalStyle`
     font-weight: 700;
     text-decoration: none;
   }
-
-  .yellow-txt {
-    color: #ffcb1f;
-    font-weight: 700;
-  }
 `;
 
 export default Global;

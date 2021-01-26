@@ -9,11 +9,6 @@ const Subtitle = styled.h2`
   color: #e2e2e2;
   max-width: 100%;
   text-align: center;
-
-  span {
-    /* color: #ffbb00; */
-    font-weight: 700;
-  }
 `;
 
 export default Subtitle;

@@ -1,9 +1,12 @@
 import Layout from '../components/Layout';
+import Title from '../components/Title';
 import { List, PorfolioItem, ListLink } from '../components/List';
 
 export default () => (
   <>
     <Layout>
+      <Title mb="40px">Projects</Title>
+
       <List>
         <PorfolioItem>
           <ListLink

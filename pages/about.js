@@ -1,4 +1,4 @@
-import Text from '../components/Text';
+import { Text, Span } from '../components/Text';
 import Layout from '../components/Layout';
 import { ProfileImage } from '../components/Image';
 
@@ -59,9 +59,9 @@ export default () => (
 
       <Text>
         While design and programming are part of my life and a huge passion of
-        mine, <span className="yellow-txt">my faith</span> and{' '}
-        <span className="yellow-txt">my family</span> are the true foundations
-        of my life.
+        mine, <Span color="#ffcb1f">my faith</Span> and{' '}
+        <Span color="#ffcb1f">my family</Span> are the true foundations of my
+        life.
       </Text>
     </Layout>
   </>

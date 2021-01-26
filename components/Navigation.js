@@ -29,14 +29,13 @@ const NavItem = styled.a`
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   color: ${props =>
     props.active ? 'rgba(255, 255, 255, 1)' : 'rgba(255, 255, 255, 0.6)'};
   transition: color 0.3s ease;
 
   &.selected {
     color: rgba(255, 255, 255, 1);
-    font-weight: 600;
     opacity: 1;
   }
 

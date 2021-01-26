@@ -9,7 +9,8 @@ const Title = styled.h1`
   margin-bottom: 0;
   line-height: 1;
   position: relative;
-  text-align: center;
+  text-align: ${props => props.align || 'left'};
+  margin-bottom: ${props => props.mb || '0px'};
 `;
 
 export default Title;
