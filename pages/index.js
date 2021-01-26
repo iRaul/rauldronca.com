@@ -4,6 +4,8 @@ import Title from '../components/Title';
 import { CTA } from '../components/Buttons';
 import { Span } from '../components/Text';
 
+import Link from '../components/Link';
+
 export default () => (
   <>
     <Layout>
@@ -16,7 +18,10 @@ export default () => (
         </Span>
         , working at the intersection between design and engineering.
       </Subtitle>
-      <CTA>More about me ›</CTA>
+
+      <Link href="/about">
+        <CTA>More about me ›</CTA>
+      </Link>
     </Layout>
   </>
 );
