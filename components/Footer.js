@@ -5,6 +5,6 @@ const Wrapper = styled.footer`
   font-size: 1.4rem;
 `;
 
-const Footer = () => <Wrapper>Ⓒ Raul Dronca 2020</Wrapper>;
+const Footer = () => <Wrapper>Ⓒ Raul Dronca 2021</Wrapper>;
 
 export default Footer;

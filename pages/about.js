@@ -8,7 +8,8 @@ export default () => (
       <ProfileImage src="../static/images/me.png" alt="Raul Dronca" />
 
       <Text>
-        I'm a User Interface Designer/Engineer living in Arad, Romania.
+        I'm a <Span>User Interface Designer/Engineer</Span> living in Arad,
+        Romania.
       </Text>
 
       <Text>

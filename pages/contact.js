@@ -22,17 +22,6 @@ export default () => (
       <List>
         <ListItem>
           <ListLink
-            href="https://twitter.com/raul_dronca"
-            target="_blank"
-            rel="noopener noreferrer"
-            color="#1da1f2"
-          >
-            Twitter
-          </ListLink>
-          — Say hi! Follow me 🙂
-        </ListItem>
-        <ListItem>
-          <ListLink
             href="https://dribbble.com/rauldronk"
             target="_blank"
             rel="noopener noreferrer"

@@ -1,6 +1,7 @@
 import Layout from '../components/Layout';
 import Title from '../components/Title';
-import { List, PorfolioItem, ListLink } from '../components/List';
+
+import { List, ListTitle, ListText, PorfolioItem } from '../components/List';
 
 export default () => (
   <>
@@ -8,103 +9,85 @@ export default () => (
       <Title mb="40px">Projects</Title>
 
       <List>
-        <PorfolioItem>
-          <ListLink
-            href="https://www.creative-portfolios.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Creative Portfolios
-          </ListLink>
-          — A curated list of Creative Portfolios.
+        <PorfolioItem
+          href="https://www.creative-portfolios.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ListTitle>Creative Portfolios</ListTitle>
+          <ListText>A curated list of Creative Portfolios.</ListText>
         </PorfolioItem>
 
-        <PorfolioItem>
-          <ListLink
-            href="https://podcasts-repo.surge.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Podcasts Repo
-          </ListLink>
-          — A collection of podcasts around the web.
+        <PorfolioItem
+          href="https://podcasts-repo.surge.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ListTitle>Podcasts Repo</ListTitle>
+          <ListText>A collection of podcasts around the web.</ListText>
         </PorfolioItem>
 
-        <PorfolioItem>
-          <ListLink
-            href="https://minimal-images.now.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Minimal Images
-          </ListLink>
-          — Minimal Images from Unsplash.
+        <PorfolioItem
+          href="https://minimal-images.now.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ListTitle>Minimal Images</ListTitle>
+          <ListText>Minimal Images from Unsplash.</ListText>
         </PorfolioItem>
 
-        <PorfolioItem>
-          <ListLink
-            href="https://iraul.github.io/pushy-buttons/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Pushy Buttons
-          </ListLink>
-          — A small CSS Pressable Buttons library.
+        <PorfolioItem
+          href="https://iraul.github.io/pushy-buttons/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ListTitle>Pushy Buttons</ListTitle>
+          <ListText>A small CSS Pressable Buttons library.</ListText>
         </PorfolioItem>
 
-        <PorfolioItem>
-          <ListLink
-            href="http://minimal-todo.surge.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Minimal To Do
-          </ListLink>
-          — A minimal to do list.
+        <PorfolioItem
+          href="http://minimal-todo.surge.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ListTitle>Minimal To Do</ListTitle>
+          <ListText>A minimal to do list.</ListText>
         </PorfolioItem>
 
-        <PorfolioItem>
-          <ListLink
-            href="https://mdprv.surge.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Markdown Previewer
-          </ListLink>
-          — Simple Markdown Previewer.
+        <PorfolioItem
+          href="https://mdprv.surge.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ListTitle>Markdown Previewer</ListTitle>
+          <ListText>Simple Markdown Previewer.</ListText>
         </PorfolioItem>
 
-        <PorfolioItem>
-          <ListLink
-            href="https://css-filters-camera.surge.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CSS Filters Camera
-          </ListLink>
-          — A CSS filters realtime camera.
+        <PorfolioItem
+          href="https://css-filters-camera.surge.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ListTitle>CSS Filters Camera</ListTitle>
+          <ListText>A CSS filters realtime camera.</ListText>
         </PorfolioItem>
 
-        <PorfolioItem>
-          <ListLink
-            href="http://box-shadow-generator.surge.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Box Shadow Generator
-          </ListLink>
-          — CSS box-shadow generator.
+        <PorfolioItem
+          href="http://box-shadow-generator.surge.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ListTitle>Box Shadow Generator</ListTitle>
+          <ListText>CSS box-shadow generator.</ListText>
         </PorfolioItem>
 
-        <PorfolioItem>
-          <ListLink
-            href="http://hex-color-generator.surge.sh/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Hex Color Generator
-          </ListLink>
-          — Random HEX Color Code Generator.
+        <PorfolioItem
+          href="http://hex-color-generator.surge.sh/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ListTitle>Hex Color Generator</ListTitle>
+          <ListText>Random HEX Color Code Generator.</ListText>
         </PorfolioItem>
       </List>
     </Layout>
