@@ -7,9 +7,11 @@ import Title from '../components/Title';
 export default () => (
   <>
     <Layout>
-      <Container large>
+      <Container>
         <Title>Books 📚</Title>
+      </Container>
 
+      <Container large noMargin>
         <BooksGrid>
           <BookWrapper>
             <BookCover>
