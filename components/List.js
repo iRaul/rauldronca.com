@@ -25,6 +25,10 @@ export const ListTitle = styled.span`
   font-weight: 600;
   font-size: 1.4rem;
   margin-bottom: 2px;
+
+  svg {
+    margin-left: 10px;
+  }
 `;
 
 export const ListText = styled.p`
@@ -36,12 +40,11 @@ export const ListText = styled.p`
 
 export const PorfolioItem = styled.a`
   padding: 50px;
-  background: linear-gradient(180deg, #28292c 0%, rgba(39, 40, 43, 0.82) 100%);
-  box-shadow: 0px 13px 40px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 16px;
-  transition: transform 0.2s ease;
+  background-color: #171717;
+  border-radius: 10px;
+  transition: background-color 0.2s ease;
 
   &:hover {
-    transform: translateY(-2px);
+    background-color: #222222;
   }
 `;
