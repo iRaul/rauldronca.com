@@ -1,10 +1,13 @@
+import Container from '../components/Container';
 import Layout from '../components/Layout';
 import Title from '../components/Title';
 
 export default () => (
   <>
     <Layout>
-      <Title>Under construction 🚧</Title>
+      <Container>
+        <Title>Under construction 🚧</Title>
+      </Container>
     </Layout>
   </>
 );
