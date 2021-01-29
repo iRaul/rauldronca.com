@@ -3,13 +3,14 @@ import styled from 'styled-components';
 export const BooksGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 100px;
   margin-top: 100px;
+  margin-bottom: 100px;
 `;
 
 export const BookWrapper = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   perspective: 600px;
 `;
 
@@ -20,7 +21,8 @@ export const BookCover = styled.div`
   transform-style: preserve-3d;
   transform: rotateY(-30deg);
   transition: transform 1s ease;
-  animation: 1s ease 0s 1 initAnimation-5c9a;
+  margin-bottom: 30px;
+  /* animation: 1s ease 0s 1 initAnimation-5c9a; */
 
   @keyframes initAnimation-5c9a {
     0% {
