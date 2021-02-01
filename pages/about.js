@@ -68,6 +68,10 @@ export default () => (
           life.
         </Text>
 
+        <Text>
+          Want to say hi? <a href="mailto:rauldronk@gmail.com">Email me 👋</a>
+        </Text>
+
         <SocialLinks>
           <SocialLink codepen href="https://codepen.io/rauldronca">
             <svg
