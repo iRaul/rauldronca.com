@@ -55,9 +55,6 @@ const Navigation = () => (
     <Link href="/projects">
       <NavItem>Projects</NavItem>
     </Link>
-    <Link href="/contact">
-      <NavItem>Contact</NavItem>
-    </Link>
     <Link href="/reading">
       <NavItem>Reading</NavItem>
     </Link>
