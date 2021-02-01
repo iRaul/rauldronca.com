@@ -4,7 +4,7 @@ export const BooksGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
 `;
 
@@ -96,4 +96,16 @@ export const BookCover = styled.div`
     /* box-shadow: 5px 5px 20px #aaaaaa; */
     background-color: #01060f;
   }
+`;
+
+export const BookTitle = styled.span`
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+`;
+
+export const BookDescription = styled.span`
+  color: #cacaca;
+  font-style: italic;
 `;

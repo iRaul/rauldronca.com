@@ -1,4 +1,5 @@
 import Container from '../components/Container';
+import Subtitle from '../components/Subtitle';
 import Layout from '../components/Layout';
 import Title from '../components/Title';
 
@@ -8,7 +9,10 @@ export default () => (
   <>
     <Layout>
       <Container>
-        <Title mb="40px">Projects</Title>
+        <Title>Projects 🌀</Title>
+        <Subtitle mt="5px" mb="40px" align="left">
+          Weekend hacks for fun and learning.
+        </Subtitle>
 
         <List>
           <PorfolioItem

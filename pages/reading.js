@@ -1,6 +1,13 @@
-import { BooksGrid, BookWrapper, BookCover } from '../components/Books';
-import { Span } from '../components/Text';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import {
+  BooksGrid,
+  BookWrapper,
+  BookCover,
+  BookTitle,
+  BookDescription,
+} from '../components/Books';
 import Container from '../components/Container';
+import Subtitle from '../components/Subtitle';
 import Layout from '../components/Layout';
 import Title from '../components/Title';
 
@@ -9,6 +16,9 @@ export default () => (
     <Layout>
       <Container>
         <Title>Books 📚</Title>
+        <Subtitle mt="5px" align="left">
+          Books I've read and books I'm currently reading.
+        </Subtitle>
       </Container>
 
       <Container large noMargin>
@@ -20,24 +30,16 @@ export default () => (
                 alt="Book"
               />
             </BookCover>
-            <Span fontSize="1.1rem" mb="5px">
-              The Holiness of God
-            </Span>
-            <Span fontWeight="500" fontStyle="italic" fontColor="#e3e3e3">
-              — R.C. Sproul
-            </Span>
+            <BookTitle>The Holiness of God</BookTitle>
+            <BookDescription>— R.C. Sproul</BookDescription>
           </BookWrapper>
 
           <BookWrapper>
             <BookCover>
               <img src="../static/images/books/george-muller.jpg" alt="Book" />
             </BookCover>
-            <Span fontSize="1.1rem" mb="5px">
-              The Autobiography of George Muller
-            </Span>
-            <Span fontWeight="500" fontStyle="italic" fontColor="#e3e3e3">
-              — George Muller
-            </Span>
+            <BookTitle>The Autobiography of George Muller</BookTitle>
+            <BookDescription>— George Muller</BookDescription>
           </BookWrapper>
 
           <BookWrapper>
@@ -47,24 +49,16 @@ export default () => (
                 alt="Book"
               />
             </BookCover>
-            <Span fontSize="1.1rem" mb="5px">
-              Introduction to the Puritans
-            </Span>
-            <Span fontWeight="500" fontStyle="italic" fontColor="#e3e3e3">
-              — Errol Hulse
-            </Span>
+            <BookTitle>Introduction to the Puritans</BookTitle>
+            <BookDescription>— Errol Hulse</BookDescription>
           </BookWrapper>
 
           <BookWrapper>
             <BookCover>
               <img src="../static/images/books/the-cross-mlj.jpg" alt="Book" />
             </BookCover>
-            <Span fontSize="1.1rem" mb="5px">
-              The Cross
-            </Span>
-            <Span fontWeight="500" fontStyle="italic" fontColor="#e3e3e3">
-              — Martyn Lloyd Jones
-            </Span>
+            <BookTitle>The Cross</BookTitle>
+            <BookDescription>— Martyn Lloyd Jones</BookDescription>
           </BookWrapper>
         </BooksGrid>
       </Container>
