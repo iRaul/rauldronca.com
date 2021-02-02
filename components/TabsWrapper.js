@@ -9,25 +9,27 @@ const TabsWrapper = styled.div`
     max-width: 650px;
     margin: 0 auto 80px;
     padding: 0 15px;
+    gap: 10px;
   }
 
   .react-tabs__tab {
     text-align: center;
-    border-bottom: 1px solid #929292;
     padding: 15px 0;
     font-weight: 600;
     color: #929292;
     cursor: pointer;
+    background-color: #131212;
+    border-radius: 4px;
 
     &:hover {
       color: #fff;
-      border-bottom: 2px solid #fff;
+      background-color: #252525;
     }
   }
 
   .react-tabs__tab--selected {
     color: #fff;
-    border-bottom: 2px solid #fff;
+    background-color: #252525;
   }
 `;
 

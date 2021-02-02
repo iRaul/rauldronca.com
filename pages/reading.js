@@ -35,7 +35,42 @@ export default () => (
             </TabList>
 
             {/* 2021 Books */}
-            <TabPanel></TabPanel>
+            <TabPanel>
+              <BooksGrid>
+                <BookWrapper>
+                  <BookCover>
+                    <img
+                      src="../static/images/books/the-bruised-reed.jpg"
+                      alt="Book"
+                    />
+                  </BookCover>
+                  <BookTitle>The Bruised Reed</BookTitle>
+                  <BookDescription>Richard Sibbes</BookDescription>
+                </BookWrapper>
+
+                <BookWrapper>
+                  <BookCover>
+                    <img
+                      src="../static/images/books/autobiography-john-bunyan.jpg"
+                      alt="Book"
+                    />
+                  </BookCover>
+                  <BookTitle>Autobiography of John Bunyan</BookTitle>
+                  <BookDescription>John Bunyan</BookDescription>
+                </BookWrapper>
+
+                <BookWrapper>
+                  <BookCover>
+                    <img
+                      src="../static/images/books/all-of-grace.jpg"
+                      alt="Book"
+                    />
+                  </BookCover>
+                  <BookTitle>All of Grace</BookTitle>
+                  <BookDescription>Charles Haddon Spurgeon</BookDescription>
+                </BookWrapper>
+              </BooksGrid>
+            </TabPanel>
 
             {/* 2020 Books */}
             <TabPanel>
@@ -48,7 +83,7 @@ export default () => (
                     />
                   </BookCover>
                   <BookTitle>The Holiness of God</BookTitle>
-                  <BookDescription>— R.C. Sproul</BookDescription>
+                  <BookDescription>R.C. Sproul</BookDescription>
                 </BookWrapper>
 
                 <BookWrapper>
@@ -59,7 +94,7 @@ export default () => (
                     />
                   </BookCover>
                   <BookTitle>The Autobiography of George Muller</BookTitle>
-                  <BookDescription>— George Muller</BookDescription>
+                  <BookDescription>George Muller</BookDescription>
                 </BookWrapper>
 
                 <BookWrapper>
@@ -70,7 +105,7 @@ export default () => (
                     />
                   </BookCover>
                   <BookTitle>Introduction to the Puritans</BookTitle>
-                  <BookDescription>— Errol Hulse</BookDescription>
+                  <BookDescription>Errol Hulse</BookDescription>
                 </BookWrapper>
 
                 <BookWrapper>
@@ -81,7 +116,7 @@ export default () => (
                     />
                   </BookCover>
                   <BookTitle>The Cross</BookTitle>
-                  <BookDescription>— Martyn Lloyd Jones</BookDescription>
+                  <BookDescription>Martyn Lloyd Jones</BookDescription>
                 </BookWrapper>
 
                 <BookWrapper>
@@ -92,7 +127,7 @@ export default () => (
                     />
                   </BookCover>
                   <BookTitle>Walking with God</BookTitle>
-                  <BookDescription>— J.C. Ryle</BookDescription>
+                  <BookDescription>J.C. Ryle</BookDescription>
                 </BookWrapper>
 
                 <BookWrapper>
@@ -103,7 +138,7 @@ export default () => (
                     />
                   </BookCover>
                   <BookTitle>Spectacular Sins</BookTitle>
-                  <BookDescription>— John Piper</BookDescription>
+                  <BookDescription>John Piper</BookDescription>
                 </BookWrapper>
 
                 <BookWrapper>
@@ -114,7 +149,7 @@ export default () => (
                     />
                   </BookCover>
                   <BookTitle>Spiritual Depression</BookTitle>
-                  <BookDescription>— Martyn LLoyd-Jones</BookDescription>
+                  <BookDescription>Martyn LLoyd-Jones</BookDescription>
                 </BookWrapper>
 
                 <BookWrapper>
@@ -125,7 +160,7 @@ export default () => (
                     />
                   </BookCover>
                   <BookTitle>The Gospel for real life</BookTitle>
-                  <BookDescription>— Jerry Bridges</BookDescription>
+                  <BookDescription>Jerry Bridges</BookDescription>
                 </BookWrapper>
 
                 <BookWrapper>
@@ -136,7 +171,7 @@ export default () => (
                     />
                   </BookCover>
                   <BookTitle>The Pursuit of Holiness</BookTitle>
-                  <BookDescription>— Jerry Bridges</BookDescription>
+                  <BookDescription>Jerry Bridges</BookDescription>
                 </BookWrapper>
 
                 <BookWrapper>
@@ -147,7 +182,7 @@ export default () => (
                     />
                   </BookCover>
                   <BookTitle>Thinking Spiritually</BookTitle>
-                  <BookDescription>— John Owen</BookDescription>
+                  <BookDescription>John Owen</BookDescription>
                 </BookWrapper>
 
                 <BookWrapper>
@@ -157,19 +192,17 @@ export default () => (
                       alt="Book"
                     />
                   </BookCover>
-                  <BookTitle>
-                    History of the English Calvinistic Baptists{' '}
-                  </BookTitle>
-                  <BookDescription>— Robert W. Oliver</BookDescription>
+                  <BookTitle>History of the Calvinistic Baptists </BookTitle>
+                  <BookDescription>Robert W. Oliver</BookDescription>
                 </BookWrapper>
               </BooksGrid>
             </TabPanel>
 
             {/* 2019 Books */}
-            <TabPanel></TabPanel>
+            <TabPanel>...</TabPanel>
 
             {/* 2018 Books */}
-            <TabPanel></TabPanel>
+            <TabPanel>...</TabPanel>
           </Tabs>
         </TabsWrapper>
       </Container>

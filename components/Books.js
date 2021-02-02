@@ -11,6 +11,7 @@ export const BooksGrid = styled.div`
 export const BookWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   perspective: 600px;
 `;
 
@@ -103,9 +104,11 @@ export const BookTitle = styled.span`
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 4px;
+  text-align: center;
 `;
 
 export const BookDescription = styled.span`
   color: #cacaca;
   font-style: italic;
+  text-align: center;
 `;
