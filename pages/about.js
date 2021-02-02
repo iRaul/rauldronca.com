@@ -62,7 +62,7 @@ export default () => (
         </Text>
 
         <Text>
-          While design and programming are part of my life and a huge passion of
+          While design and programming are part of my life and a passion of
           mine, <Span color="#ffcb1f">my faith</Span> and{' '}
           <Span color="#ffcb1f">my family</Span> are the true foundations of my
           life.
