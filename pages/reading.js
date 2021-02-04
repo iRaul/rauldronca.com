@@ -192,17 +192,114 @@ export default () => (
                       alt="Book"
                     />
                   </BookCover>
-                  <BookTitle>History of the Calvinistic Baptists </BookTitle>
+                  <BookTitle>History of the Calvinistic Baptists</BookTitle>
                   <BookDescription>Robert W. Oliver</BookDescription>
+                </BookWrapper>
+
+                <BookWrapper>
+                  <BookCover>
+                    <img
+                      src="../static/images/books/martin-luther.jpg"
+                      alt="Book"
+                    />
+                  </BookCover>
+                  <BookTitle>Here I stand</BookTitle>
+                  <BookDescription>Roland H. Bainton</BookDescription>
                 </BookWrapper>
               </BooksGrid>
             </TabPanel>
 
             {/* 2019 Books */}
-            <TabPanel>...</TabPanel>
+            <TabPanel>
+              <BooksGrid>
+                <BookWrapper>
+                  <BookCover>
+                    <img
+                      src="../static/images/books/deep-work.jpeg"
+                      alt="Book"
+                    />
+                  </BookCover>
+                  <BookTitle>Deep Work</BookTitle>
+                  <BookDescription>Robert W. Oliver</BookDescription>
+                </BookWrapper>
+
+                <BookWrapper>
+                  <BookCover>
+                    <img
+                      src="../static/images/books/remote-work.jpg"
+                      alt="Book"
+                    />
+                  </BookCover>
+                  <BookTitle>Remote</BookTitle>
+                  <BookDescription>Jason Fried</BookDescription>
+                </BookWrapper>
+
+                <BookWrapper>
+                  <BookCover>
+                    <img src="../static/images/books/rework.jpg" alt="Book" />
+                  </BookCover>
+                  <BookTitle>Rework</BookTitle>
+                  <BookDescription>Jason Fried</BookDescription>
+                </BookWrapper>
+
+                <BookWrapper>
+                  <BookCover>
+                    <img
+                      src="../static/images/books/thinking-fast-thinking-slow.jpg"
+                      alt="Book"
+                    />
+                  </BookCover>
+                  <BookTitle>Thinking, Fast and Slow</BookTitle>
+                  <BookDescription>Daniel Kahneman</BookDescription>
+                </BookWrapper>
+              </BooksGrid>
+            </TabPanel>
 
             {/* 2018 Books */}
-            <TabPanel>...</TabPanel>
+            <TabPanel>
+              <BooksGrid>
+                <BookWrapper>
+                  <BookCover>
+                    <img
+                      src="../static/images/books/elon-musk.jpg"
+                      alt="Book"
+                    />
+                  </BookCover>
+                  <BookTitle>Elon Musk Biography</BookTitle>
+                  <BookDescription>Ashlee Vance</BookDescription>
+                </BookWrapper>
+
+                <BookWrapper>
+                  <BookCover>
+                    <img src="../static/images/books/feynman.jpg" alt="Book" />
+                  </BookCover>
+                  <BookTitle>Surely You're Joking, Mr. Feynman!</BookTitle>
+                  <BookDescription>Ralph Leighton</BookDescription>
+                </BookWrapper>
+
+                <BookWrapper>
+                  <BookCover>
+                    <img
+                      src="../static/images/books/tools-of-titans.jpg"
+                      alt="Book"
+                    />
+                  </BookCover>
+                  <BookTitle>Tools of Titans</BookTitle>
+                  <BookDescription>Timothy Ferriss</BookDescription>
+                </BookWrapper>
+
+                <BookWrapper>
+                  <BookCover>
+                    <img
+                      src="../static/images/books/the-pragmatic-programmer.jpg"
+                      alt="Book"
+                    />
+                  </BookCover>
+                  <BookTitle>The Pragamatic Programmer</BookTitle>
+                  <BookDescription>Andy Hunt / Dave Thomas</BookDescription>
+                </BookWrapper>
+              </BooksGrid>
+            </TabPanel>
           </Tabs>
         </TabsWrapper>
       </Container>
