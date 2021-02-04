@@ -9,7 +9,7 @@ export default () => (
   <>
     <Layout>
       <Container>
-        <Title>Projects 🌀</Title>
+        <Title>Projects 👾</Title>
         <Subtitle mt="5px" mb="40px" align="left">
           Weekend hacks for fun and learning.
         </Subtitle>
