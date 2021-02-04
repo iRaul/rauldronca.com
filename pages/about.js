@@ -18,7 +18,6 @@ export default () => (
         <Text>
           I'm currently working remotely at{' '}
           <a
-            className="link-a"
             href="https://fyusion.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -33,7 +32,6 @@ export default () => (
           Previously, I worked as a freelancer, building UI's for different
           clients such as:{' '}
           <a
-            className="link-a"
             href="https://designmodo.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -42,7 +40,6 @@ export default () => (
           </a>
           ,{' '}
           <a
-            className="link-a"
             href="http://www.climber.io/"
             target="_blank"
             rel="noopener noreferrer"
@@ -51,7 +48,6 @@ export default () => (
           </a>{' '}
           and{' '}
           <a
-            className="link-a"
             href="http://hexbridge.com/"
             target="_blank"
             rel="noopener noreferrer"
