@@ -12,7 +12,7 @@ export default () => (
 
         <Text>
           I'm a <Span>User Interface Designer/Engineer</Span> living in Arad,
-          Romania.
+          Romania 🇷🇴
         </Text>
 
         <Text>
