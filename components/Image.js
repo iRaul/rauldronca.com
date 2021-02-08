@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 
-export const ProfileImage = styled.img`
-  width: 100%;
-  object-fit: cover;
-  border-radius: 4px;
-  display: block;
+export const ProfileImage = styled.div`
   mix-blend-mode: screen;
-  margin-bottom: 60px;
-  margin-top: -30px;
+  margin-bottom: 40px;
 `;

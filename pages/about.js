@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Text, Span } from '../components/Text';
 import Layout from '../components/Layout';
 import { ProfileImage } from '../components/Image';
@@ -8,8 +9,9 @@ export default () => (
   <>
     <Layout>
       <Container>
-        <ProfileImage src="../static/images/me.png" alt="Raul Dronca" />
-
+        <ProfileImage>
+          <Image src="/../static/images/me.png" width={620} height={412} />
+        </ProfileImage>
         <Text>
           I'm a <Span>User Interface Designer/Engineer</Span> living in Arad,
           Romania 🇷🇴

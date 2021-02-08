@@ -39,11 +39,6 @@ const Global = createGlobalStyle`
     color: #0099ff;
     font-weight: 700;
     text-decoration: none;
-    opacity: 0.85;
-
-    &:hover {
-      opacity: 1;
-    }
   }
 `;
 
