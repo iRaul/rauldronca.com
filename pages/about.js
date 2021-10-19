@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Text, Span } from '../components/Text';
 import Layout from '../components/Layout';
 import { ProfileImage } from '../components/Image';
@@ -10,14 +9,11 @@ export default () => (
     <Layout>
       <Container>
         <ProfileImage>
-          <Image
+          <img
             alt="Profile Pic"
-            placeholder="blur"
-            src="/../static/images/me.JPG"
-            objectFit="cover"
+            src="/../static/images/me.jpg"
             width={620}
             height={612}
-            quality={100}
           />
         </ProfileImage>
         <Text>
