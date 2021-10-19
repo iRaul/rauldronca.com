@@ -5,7 +5,7 @@ import Link from './Link';
 const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
-  max-width: 768px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 18px 28px;
   gap: 20px;
@@ -57,9 +57,6 @@ const Navigation = () => (
     </Link>
     <Link href="/reading">
       <NavItem>Reading</NavItem>
-    </Link>
-    <Link href="/bookmarks">
-      <NavItem>Bookmarks</NavItem>
     </Link>
   </Nav>
 );
