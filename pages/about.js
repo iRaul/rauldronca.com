@@ -10,7 +10,15 @@ export default () => (
     <Layout>
       <Container>
         <ProfileImage>
-          <Image src="/../static/images/me.png" width={620} height={412} />
+          <Image
+            alt="Profile Pic"
+            placeholder="blur"
+            src="/../static/images/me.JPG"
+            objectFit="cover"
+            width={620}
+            height={612}
+            quality={100}
+          />
         </ProfileImage>
         <Text>
           I'm a <Span>User Interface Designer/Engineer</Span> living in Arad,
