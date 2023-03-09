@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/iRaul/portfolio#readme",
   "dependencies": {
-    "next": "^12.1.0",
+    "next": "^13.2.3",
     "next-fonts": "^1.5.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-tabs": "^3.1.2",
     "styled-components": "^4.4.1",
     "use-dark-mode": "^2.3.1"

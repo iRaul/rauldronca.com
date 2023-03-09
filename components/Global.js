@@ -40,6 +40,14 @@ const Global = createGlobalStyle`
     font-weight: 700;
     text-decoration: none;
   }
+
+  .fyusion-link {
+    opacity: 0.8;
+    transition: opacity .1s ease;
+  }
+  .fyusion-link:hover {
+    opacity: 1;
+  }
 `;
 
 export default Global;

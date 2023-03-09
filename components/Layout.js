@@ -6,9 +6,9 @@ import Head from './Head';
 
 const Layout = ({ children }) => (
   <>
-    <Head />
+    {/* <Head /> */}
     <GlobalStyle />
-    <Navigation />
+    {/* <Navigation /> */}
     {children}
   </>
 );
