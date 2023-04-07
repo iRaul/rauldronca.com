@@ -9,10 +9,6 @@ const Subtitle = styled.h2`
   color: #e2e2e2;
   max-width: 100%;
   text-align: ${props => props.align || 'center'};
-
-  svg {
-    margin-left: 8px;
-  }
 `;
 
 export default Subtitle;

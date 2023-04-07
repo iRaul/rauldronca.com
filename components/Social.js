@@ -2,11 +2,9 @@ import styled from 'styled-components';
 
 export const SocialLinks = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 30px 0;
-  padding: 30px 0;
-  border-top: 1px solid #414141;
+  grid-template-rows: repeat(4, 1fr);
   gap: 20px;
+  margin-top: 20px;
 `;
 
 export const SocialLink = styled.a`

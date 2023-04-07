@@ -42,7 +42,9 @@ const Global = createGlobalStyle`
   }
 
   .fyusion-link {
-    opacity: 0.8;
+    opacity: 0.7;
+    color: #fff;
+    font-style: italic;
     transition: opacity .1s ease;
   }
   .fyusion-link:hover {
