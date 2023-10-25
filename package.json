@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/iRaul/portfolio#readme",
   "dependencies": {
-    "next": "^13.2.3",
+    "next": "^13.5.0",
     "next-fonts": "^1.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
