@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center px-6">
       <main className="max-w-2xl">
-        <h1 className="text-4xl font-medium tracking-tight mb-6">
+        <h1 className="text-4xl font-medium tracking-tight">
           Raul Dronca
         </h1>
         <p className="text-xl leading-relaxed text-zinc-600 dark:text-zinc-400">
@@ -17,7 +17,7 @@ export default function Home() {
           </a>
           .
         </p>
-        <div className="flex flex-wrap gap-4 mt-8">
+        <div className="flex flex-wrap gap-4 mt-6">
           <a
             href="https://codepen.io/rauldronca"
             target="_blank"
